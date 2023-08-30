@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dodgerblue;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 420px;
+    justify-content: center;
+
+}
+
+.container .box{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background-color: #680072;
+} 
+.box .image{
+    background-image: url('https://www.acisindonesia.com/wp-content/uploads/2016/08/girl-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.box.hovered{
+    border: 2px dashed #3333  ;
+    border-color: #fff;
+}
